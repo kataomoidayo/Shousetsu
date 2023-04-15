@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_ln"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="6dp"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_sampul_ln"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/sampul_ln"
+            tools:src="@drawable/otonari_no_tenshi_sama"/>
+
+        <TextView
+            android:id="@+id/tv_judul_ln"
+            style="@style/judul"
+            android:layout_toEndOf="@id/img_sampul_ln"
+            tools:text="@string/judul_ln"/>
+
+        <TextView
+            android:id="@+id/tv_keterangan_ln"
+            style="@style/isi"
+            android:layout_below="@id/tv_judul_ln"
+            android:layout_toEndOf="@id/img_sampul_ln"
+            tools:text="@string/keterangan_ln"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

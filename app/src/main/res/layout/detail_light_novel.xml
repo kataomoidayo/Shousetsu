@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DetailLN">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/action_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/bagikan"
+        android:src="@drawable/ic_share"
+        android:backgroundTint="@color/colorPrimary"
+        app:tint="@color/white"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/img_sampul_ln"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="5dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp"
+                    android:contentDescription="@string/sampul_ln"
+                    android:background="@drawable/sampul_border"
+                    tools:src="@drawable/otonari_no_tenshi_sama"/>
+
+                <TextView
+                    android:id="@+id/tv_judul_ln"
+                    style="@style/judul"
+                    android:layout_toEndOf="@id/img_sampul_ln"
+                    tools:text="@string/judul_ln"/>
+
+                <TextView
+                    android:id="@+id/tv_keterangan_ln"
+                    style="@style/isi"
+                    android:layout_below="@id/tv_judul_ln"
+                    android:layout_toEndOf="@id/img_sampul_ln"
+                    tools:text="@string/keterangan_ln"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_penulis_ilustrasi"
+                    style="@style/judul"
+                    android:text="@string/penulis_ilustrator"/>
+
+                <TextView
+                    android:id="@+id/tv_nama_penulis_ilustrator"
+                    style="@style/isi"
+                    android:layout_below="@id/tv_penulis_ilustrasi"
+                    tools:text="@string/nama_penulis_ilustrator"/>
+
+
+                <TextView
+                    android:id="@+id/tv_tahun_terbit"
+                    style="@style/judul"
+                    android:layout_below="@id/tv_nama_penulis_ilustrator"
+                    android:text="@string/tahun_terbit"/>
+
+                <TextView
+                    android:id="@+id/tv_tahun_terbit_ln"
+                    style="@style/isi"
+                    android:layout_below="@id/tv_tahun_terbit"
+                    tools:text="@string/tahun_terbit_ln"/>
+
+                <TextView
+                    android:id="@+id/tv_penerbit"
+                    style="@style/judul"
+                    android:layout_below="@id/tv_tahun_terbit_ln"
+                    android:text="@string/penerbit"/>
+
+                <TextView
+                    android:id="@+id/tv_nama_penerbit"
+                    style="@style/isi"
+                    android:layout_below="@id/tv_penerbit"
+                    tools:text="@string/nama_penerbit"/>
+
+                <TextView
+                    android:id="@+id/tv_genre"
+                    style="@style/judul"
+                    android:text="@string/genre"
+                    android:layout_below="@id/tv_nama_penerbit"/>
+
+                <TextView
+                    android:id="@+id/tv_genre_ln"
+                    style="@style/isi"
+                    android:layout_below="@id/tv_genre"
+                    tools:text="@string/genre_ln"/>
+
+                <TextView
+                    android:id="@+id/tv_volume"
+                    style="@style/judul"
+                    android:layout_below="@id/tv_genre_ln"
+                    android:text="@string/volume"/>
+
+                <TextView
+                    android:id="@+id/tv_volume_ln"
+                    style="@style/isi"
+                    android:layout_below="@id/tv_volume"
+                    tools:text="@string/volume_ln"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_toko_resmi"
+                    style="@style/judul"
+                    android:text="@string/toko_resmi"/>
+
+                <TextView
+                    android:id="@+id/tv_toko_resmi_ln"
+                    style="@style/isi"
+                    android:layout_below="@id/tv_toko_resmi"
+                    android:text="@string/toko_resmi_ln"/>
+
+                <TextView
+                    android:id="@+id/tv_link_toko_resmi_ln"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:ellipsize="end"
+                    android:textSize="12sp"
+                    android:focusable="true"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    android:layout_below="@id/tv_toko_resmi_ln"
+                    android:textColorLink="@color/iniLink"
+                    android:fontFamily="@font/notoserif_jp_regular"
+                    tools:text="@string/link_toko_resmi_ln"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_deskripsi"
+                    style="@style/judul"
+                    android:text="@string/deskripsi"/>
+
+                <TextView
+                    android:id="@+id/tv_deskripsi_ln"
+                    style="@style/isi"
+                    android:layout_below="@id/tv_deskripsi"
+                    tools:text="@string/deskripsi_ln"/>
+
+                <TextView
+                    android:id="@+id/tv_plot"
+                    style="@style/judul"
+                    android:layout_below="@id/tv_deskripsi_ln"
+                    android:text="@string/plot"/>
+
+                <TextView
+                    android:id="@+id/tv_plot_ln"
+                    style="@style/isi"
+                    android:layout_below="@+id/tv_plot"
+                    tools:text="@string/plot_ln"/>
+
+                <TextView
+                    android:id="@+id/tv_selengkapnya"
+                    style="@style/judul"
+                    android:layout_below="@id/tv_plot_ln"
+                    android:text="@string/selengkapnya"/>
+
+                <TextView
+                    android:id="@+id/tv_selengkapnya_ln"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tv_selengkapnya"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginEnd="5dp"
+                    android:ellipsize="end"
+                    android:textSize="12sp"
+                    android:focusable="true"
+                    android:linksClickable="true"
+                    android:autoLink="web"
+                    android:fontFamily="@font/notoserif_jp_regular"
+                    android:textColorLink="@color/iniLink"
+                    tools:text="@string/selengkapnya_ln"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

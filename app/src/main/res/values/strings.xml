@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">shousetsu</string>
+
+    <string name="sampul_ln">Sampul Light Novel</string>
+
+    <string name="judul_ln">お隣の天使様にいつの間にか駄目人間にされていた件</string>
+    <string name="keterangan_ln">Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken</string>
+
+    <string name="penulis_ilustrator">Penulis &amp; Ilustrator</string>
+    <string name="nama_penulis_ilustrator">Penulis    : 佐伯さん　Saekisan.                  Ilustrator : 和武はざの　Kazutake Hazano (volume 1) dan はねこと Hanekoto (volume 2 - seterusnya).</string>
+
+    <string name="genre">Genre</string>
+    <string name="genre_ln">Komedi, Romantis</string>
+
+    <string name="volume">Volume</string>
+    <string name="volume_ln">7</string>
+
+    <string name="tahun_terbit">Terbit</string>
+    <string name="tahun_terbit_ln">14 Juni 2019 - Sekarang</string>
+
+    <string name="penerbit">Penerbit</string>
+    <string name="nama_penerbit">Penerbit   :「SBクリエイティブ」SB Creative         Label  :「文庫」GA BUNKO</string>
+
+    <string name="deskripsi">Deskripsi</string>
+    <string name="deskripsi_ln">お隣の天使様にいつの間にか駄目人間にされていた件　Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken adalah seri light novel atau novel ringan Jepang yang ditulis oleh　佐伯さん　Saekisan dan diilustrasikan oleh　和武はざの　Kazutake Hazano (volume 1) dan　はねこと Hanekoto (volume 2 - seterusnya). Seri ini juga dibuat menjadi Manga, dan juga adaptasi Anime yang akan mulai tayang pada Bulan 1  Tahun 2023.</string>
+
+    <string name="plot">Plot</string>
+    <string name="plot_ln">Pada musim gugur SMA Kelas 1, 藤宮周 Fujimiya Amane yang tidak bisa melihat dan mengabaikan menyodorkan payung yang sedang dia pakai kepada seseorang yang “MALAIKAT” 椎名真昼 Shiina Mahiru  yang basah kehujanan dan tetap diam tidak bergerak di taman, kemudian terkena flu. 真昼 Mahiru  yang datang untuk mengembalikan payung pun merasa bersalah dan menawarkan untuk merawatnya, tetapi dia terkejut dengan kamar yang kotor dan kebiasaan makan yang tidak sehat dari tetangganya 周 Amane, membantu  membersihkannya dan mengantarkan lauk pauk untuknya,  tak lama kemudian membuatkan makan malam dan makan berdua di kamar 周 Amane. Begitulah awal cerita dari seorang laki-laki yang sopan　藤宮周 Fujimiya Amane yang tidak tertarik dengan “MALAIKAT” buatan dan sorang gadis 椎名真昼 Shiina Mahiru  yang tidak menunjukkan sikap “MALAIKAT” tapi menunjukkan sikap aslinya yang terus terang dan tajam. Saat berbagi waktu yang sama, keduanya secara bertahap terbuka, saling mengenal, dan lambat laun menjadi tertarik satu sama lain.</string>
+
+    <string name="sengaja_dikosongkan">Biar baca Plot ga kehalang tombol share</string>
+
+    <string name="nama">putu adi saputra</string>
+
+    <string name="email">19121101004@undhirabali.ac.id</string>
+
+    <string name="profile">tombol profil</string>
+    <string name="bagikan">Bagikan Light Novel</string>
+
+    <string name="selengkapnya">Selengkapnya</string>
+    <string name="selengkapnya_ln">https://ja.wikipedia.org/wiki/お隣の天使様にいつの間にか駄目人間にされていた件</string>
+
+    <string name="bokudesukedo">Foto profil</string>
+
+    <string name="banner">Ini banner</string>
+
+
+    <string name="toko_resmi">Toko Resmi</string>
+    <string name="toko_resmi_ln">Link website toko resmi penjualan novel ringan :</string>
+    <string name="link_toko_resmi_ln">https://ga.sbcr.jp/sp/otonari/index.html</string>
+
+</resources>
